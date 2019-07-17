@@ -6,37 +6,46 @@
 	<title>https://www.epicnoobproductions.com</title>
 </head>
 <body>
-		<ul id= "id">
-<div class="grid-container2">
-	<div class="item">
+<body oncontextmenu="return false">
+	
+<ul id= "id">
+<div class="grid-container">
+	<div class="grid-item">
 <li id="li1">
 	<a href="index.html">
 		home
 	</a>
 </li>
 </div>
-<div class="item">
+<div class="grid-item">
 <li id="li2">
 	<a href="questions.html">
 		questions
 	</a>
 </li>
 </div>
-<div class="item">
+<div class="grid-item">
 <li id="li3">
 	<a href="games.html">
 		games
 	</a>
 </li>
 </div>
-<div class="item">
+<div class="grid-item">
 <li id="li4">
 	<a href="contact.html">
 		contact
 	</a>
 </li>
 </div>
+<div class="grid-item"> 
+<li id="li5">
+	<a href="login.html">beta tester only</a>
+</li>
 </div>
+
+
+</ul>
 	<h1> look like nothings here right now come back later</h1>
 <img src="2.png" width="400px" height="500px">
 
@@ -62,26 +71,16 @@
 </div>
 </ul>
 </div>
-<style type="text/css">	  li:hover {
-      background-color: orange;
-		}
-	a{
-			color:red;
-			text-decoration: none;}
-		.grid-container{
-			display: grid;
-			grid-template-columns: auto auto auto auto;
-			background-color:#2196f3;
-
-		}
-			.grid-container2{
-			display: grid;
-			grid-template-columns: auto auto auto auto;
-
-			background-color:#2196f3;
-
-		}
-		  #li1:hover {
+<style type="text/css">
+	 .container{
+	 	display: grid;
+	 	grid-template-columns: auto auto auto auto;
+	 }
+	 .item:hover{
+    background-color:red ;
+    transition:-100px;
+	 }
+	  #li1:hover {
       background-color: orange;
 		}
 		  #li2:hover {
@@ -93,23 +92,30 @@
 		  #li4:hover {
       background-color: orange;
 		}
+		#li5:hover{
+         background-color: orange;
+		}
+		
+		.grid-container{
+			display: grid;
+			grid-template-columns: auto auto auto auto auto;
+
+			background-color:#2196f3;
+
+		}
 		a{
 			color:red;
 			text-decoration: none;
 		}
 		#id{
 			list-style-type:none;
-			vertical-align: top;
-			position: fixed;
-			left: 0;
-			bottom: 0;
-			width: 100%;
 			text-align:  center;;
 		}
-		.ree{
-			background-color: #2196f3;
+		#test{
+			float-top :-100;
 		}
 	</style>
+
 </body>
 </html>
 <!-- for when nothings there-->
