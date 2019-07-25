@@ -6,36 +6,54 @@
 <body oncontextmenu="return false">
 
 <ul id= "id">
-<div class="grid-container2">
-	<div class="item">
+<div class="grid-container4">
+	<div class="grid-item">
+		<a href="index2.html">
 <li id="li1">
-	<a href="index.html">
+	
 		home
-	</a>
+	
 </li>
+</a>
 </div>
-<div class="item">
+<div class="grid-item">
+	<a href="questions 2.html">
 <li id="li2">
-	<a href="questions.html">
 		questions
-	</a>
 </li>
+</a>
 </div>
-<div class="item">
+<div class="grid-item">
+	<a href="games 2.html">
 <li id="li3">
-	<a href="games.html">
+	
 		games
-	</a>
+	
 </li>
+</a>
 </div>
-<div class="item">
+<div class="grid-item">
+	<a href="contact 2.html">
 <li id="li4">
-	<a href="contact.html">
+	
 		contact
-	</a>
+	
 </li>
+</a>
 </div>
+
+<div class="grid-item">
+<a href="index.html">
+<li id="li4">
+	
+		logout
+	
+</li>
+</a>
 </div>
+
+
+</ul>
 	<div class="grid-container">
 		<div class="grid-item">
 		<h1>tank exploration</h1>
@@ -59,10 +77,10 @@
 </audio>-->
 
 <style type="text/css">	 
-.container{
-	display:grid;
-	grid-template-columns: auto auto;
-}
+
+ul{
+			font-size: large;
+		}
 .span{
 	grid-column-start: 1;
 	grid-column-end: 2;
@@ -84,7 +102,15 @@
 min-height: 100%;
 overflow: auto;
 		}
-		
+			img {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img:hover {
+    border: 20px solid #C7CCDB;
+}
 		#id{
 			list-style-type:none;
 			vertical-align: top;
@@ -108,17 +134,61 @@ overflow: auto;
 			background-color:#2196f3;
 
 		}
-		  #li1:hover {
-      background-color: orange;
+	
+		ul{
+			font-size: large;
+		}
+	 .container{
+	 	display: grid;
+	 	grid-template-columns: auto auto auto auto;
+	 }
+		 .item:hover{
+   
+	 }
+	  #li1:hover {
+      background-color: #2A324B;
 		}
 		  #li2:hover {
-      background-color: orange;
+      background-color: #2A324B;
 		}
 		  #li3:hover {
-      background-color: orange;
+      background-color:#2A324B;
 		}
 		  #li4:hover {
-      background-color: orange;
+      background-color: #2A324B;
+		}
+		#li5:hover {
+         background-color: #2A324B;
+
+         
+		}
+		
+		.grid-container4{
+			display: grid;
+			grid-template-columns: auto auto auto auto auto;
+          
+               position: fixed;
+                 top: 0;
+                 width: 100%;
+
+			background-color:#E1E5EE;
+
+
+		}
+		a{
+			color:#2A324B;
+			text-decoration: none;
+		}
+		a:hover{
+			color:#C7CCDB;
+			text-decoration: none;
+		}
+		#id{
+			list-style-type:none;
+        text-align: center;
+		}
+		#test{
+			float-top :-100;
 		}
 		</style>
 
