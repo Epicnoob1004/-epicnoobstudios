@@ -1,37 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<script/>
 <url>
-  <loc>https://epicnoob1004.github.io/epicnoobstudios/index.html</loc>
-  <lastmod>2019-10-31T18:57:54+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://epicnoob1004.github.io/epicnoobstudios/</loc>
+<changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://epicnoob1004.github.io/epicnoobstudios/questions.html</loc>
-  <lastmod>2019-10-31T18:57:54+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://epicnoob1004.github.io/index.html</loc>
+<changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://epicnoob1004.github.io/epicnoobstudios/games.html</loc>
-  <lastmod>2019-10-31T18:57:54+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://epicnoob1004.github.io/questions.html</loc>
+<changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://epicnoob1004.github.io/epicnoobstudios/contact.html</loc>
-  <lastmod>2019-10-31T18:57:54+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://epicnoob1004.github.io/games.html</loc>
+<changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://epicnoob1004.github.io/epicnoobstudios/login.html</loc>
-  <lastmod>2019-10-31T18:57:54+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://epicnoob1004.github.io/contact.html</loc>
+<changefreq>always</changefreq>
 </url>
-
-
+<url>
+<loc>https://epicnoob1004.github.io/login.html</loc>
+<changefreq>always</changefreq>
+</url>
 </urlset>
